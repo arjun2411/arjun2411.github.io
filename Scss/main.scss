@@ -1,3 +1,4 @@
-body {
-    box-sizing: content-box;
-}
+@import 'variables';
+@import 'layout';
+@import 'header';
+@import 'portfolio';

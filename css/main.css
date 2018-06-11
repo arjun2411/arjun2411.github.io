@@ -1,1 +1,19 @@
-body { -webkit-box-sizing: content-box; box-sizing: content-box; }
+html { font-size: 10px; }
+
+body { font-family: 'Montserrat', sans-serif; font-size: 1.4rem; }
+
+.h2, h2 { font-size: 3.5rem; }
+
+.page-section { padding: 6rem 0; }
+
+header { color: white; }
+
+header .navbar-brand { text-transform: uppercase; }
+
+header .navbar-light .navbar-brand { color: white; }
+
+header .nav-item { text-transform: uppercase; font-size: 1.2rem; font-weight: 300; }
+
+header .navbar-expand-lg .navbar-nav .nav-link { color: white; }
+
+.hero-section { background-color: black; min-height: 100vh; background-image: url(/Images/arjun.png); background-repeat: no-repeat; background-size: cover; }
