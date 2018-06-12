@@ -2,7 +2,7 @@ html { font-size: 10px; }
 
 body { font-family: 'Montserrat', sans-serif; font-size: 1.4rem; }
 
-.h2, h2 { font-size: 3.5rem; }
+.h2, h2 { font-size: 2.5rem; text-transform: uppercase; }
 
 .page-section { padding: 6rem 0; }
 
@@ -16,4 +16,8 @@ header .nav-item { text-transform: uppercase; font-size: 1.2rem; font-weight: 30
 
 header .navbar-expand-lg .navbar-nav .nav-link { color: white; }
 
-.hero-section { background-color: black; min-height: 100vh; background-image: url(/Images/arjun.png); background-repeat: no-repeat; background-size: cover; }
+.hero-section { background-color: black; min-height: 100vh; background-image: url(/Images/arjun.png); background-repeat: no-repeat; background-size: cover; background-position: center bottom; color: white; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; padding: 0 10%; }
+
+.hero-section h1 { font-size: 5rem; font-weight: normal; letter-spacing: .5rem; margin-bottom: .05rem; }
+
+.hero-section p { margin-bottom: 0; font-size: 1.6rem; text-transform: uppercase; }

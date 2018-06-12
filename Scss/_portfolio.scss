@@ -4,4 +4,21 @@
     background-image: url(/Images/arjun.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center bottom;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 10%;
+    h1 {
+        font-size: 5rem;
+        font-weight: normal;
+        letter-spacing: .5rem;
+        margin-bottom: .05rem;
+    }
+    p {
+        margin-bottom: 0;
+        font-size: 1.6rem;
+        text-transform: uppercase;
+    }
 }
