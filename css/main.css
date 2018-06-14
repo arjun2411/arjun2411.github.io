@@ -1,16 +1,18 @@
 html { font-size: 10px; }
 
-body { font-family: 'Montserrat', sans-serif; font-size: 1.4rem; }
+body { font-family: 'Montserrat', sans-serif; font-size: 1.4rem; font-weight: 300; }
 
 .h2, h2 { font-size: 2.5rem; text-transform: uppercase; }
 
 .page-section { padding: 6rem 0; }
 
+.page-section .sub-heading { font-weight: 600; }
+
 header { color: white; }
 
 header .navbar-brand { text-transform: uppercase; }
 
-header .navbar-light .navbar-brand { color: white; }
+header .navbar-light .navbar-brand { color: white; font-size: 1.8rem; letter-spacing: .3rem; }
 
 header .nav-item { text-transform: uppercase; font-size: 1.2rem; font-weight: 300; }
 
@@ -21,3 +23,5 @@ header .navbar-expand-lg .navbar-nav .nav-link { color: white; }
 .hero-section h1 { font-size: 5rem; font-weight: normal; letter-spacing: .5rem; margin-bottom: .05rem; }
 
 .hero-section p { margin-bottom: 0; font-size: 1.6rem; text-transform: uppercase; }
+
+#about { background-color: #283C51; color: white; }
