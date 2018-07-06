@@ -8,6 +8,144 @@ body { font-family: 'Montserrat', sans-serif; font-size: 1.4rem; font-weight: 30
 
 .page-section .sub-heading { font-weight: 600; }
 
+.tracking-in-expand { -webkit-animation: tracking-in-expand 5s cubic-bezier(0.215, 0.61, 0.355, 1) both; animation: tracking-in-expand 5s cubic-bezier(0.215, 0.61, 0.355, 1) both; }
+
+@-webkit-keyframes tracking-in-expand { 0% { letter-spacing: -0.5em;
+    opacity: 0; }
+  40% { opacity: 0.6; }
+  100% { opacity: 1; } }
+
+@keyframes tracking-in-expand { 0% { letter-spacing: -0.5em;
+    opacity: 0; }
+  40% { opacity: 0.6; }
+  100% { opacity: 1; } }
+
+.text-flicker-in-glow { -webkit-animation: text-flicker-in-glow 5s linear both; animation: text-flicker-in-glow 5s linear both; }
+
+/** ---------------------------------------- animation text-flicker-in-glow ---------------------------------------- */
+@-webkit-keyframes text-flicker-in-glow { 0% { opacity: 0; }
+  10% { opacity: 0;
+    text-shadow: none; }
+  10.1% { opacity: 1;
+    text-shadow: none; }
+  10.2% { opacity: 0;
+    text-shadow: none; }
+  20% { opacity: 0;
+    text-shadow: none; }
+  20.1% { opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.25); }
+  20.6% { opacity: 0;
+    text-shadow: none; }
+  30% { opacity: 0;
+    text-shadow: none; }
+  30.1% { opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25); }
+  30.5% { opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25); }
+  30.6% { opacity: 0;
+    text-shadow: none; }
+  45% { opacity: 0;
+    text-shadow: none; }
+  45.1% { opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25); }
+  50% { opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25); }
+  55% { opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25); }
+  55.1% { opacity: 0;
+    text-shadow: none; }
+  57% { opacity: 0;
+    text-shadow: none; }
+  57.1% { opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35); }
+  60% { opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35); }
+  60.1% { opacity: 0;
+    text-shadow: none; }
+  65% { opacity: 0;
+    text-shadow: none; }
+  65.1% { opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35), 0 0 100px rgba(255, 255, 255, 0.1); }
+  75% { opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35), 0 0 100px rgba(255, 255, 255, 0.1); }
+  75.1% { opacity: 0;
+    text-shadow: none; }
+  77% { opacity: 0;
+    text-shadow: none; }
+  77.1% { opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.4), 0 0 110px rgba(255, 255, 255, 0.2), 0 0 100px rgba(255, 255, 255, 0.1); }
+  85% { opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.4), 0 0 110px rgba(255, 255, 255, 0.2), 0 0 100px rgba(255, 255, 255, 0.1); }
+  85.1% { opacity: 0;
+    text-shadow: none; }
+  86% { opacity: 0;
+    text-shadow: none; }
+  86.1% { opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1); }
+  100% { opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1); } }
+@keyframes text-flicker-in-glow { 0% { opacity: 0; }
+  10% { opacity: 0;
+    text-shadow: none; }
+  10.1% { opacity: 1;
+    text-shadow: none; }
+  10.2% { opacity: 0;
+    text-shadow: none; }
+  20% { opacity: 0;
+    text-shadow: none; }
+  20.1% { opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.25); }
+  20.6% { opacity: 0;
+    text-shadow: none; }
+  30% { opacity: 0;
+    text-shadow: none; }
+  30.1% { opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25); }
+  30.5% { opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25); }
+  30.6% { opacity: 0;
+    text-shadow: none; }
+  45% { opacity: 0;
+    text-shadow: none; }
+  45.1% { opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25); }
+  50% { opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25); }
+  55% { opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25); }
+  55.1% { opacity: 0;
+    text-shadow: none; }
+  57% { opacity: 0;
+    text-shadow: none; }
+  57.1% { opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35); }
+  60% { opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35); }
+  60.1% { opacity: 0;
+    text-shadow: none; }
+  65% { opacity: 0;
+    text-shadow: none; }
+  65.1% { opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35), 0 0 100px rgba(255, 255, 255, 0.1); }
+  75% { opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35), 0 0 100px rgba(255, 255, 255, 0.1); }
+  75.1% { opacity: 0;
+    text-shadow: none; }
+  77% { opacity: 0;
+    text-shadow: none; }
+  77.1% { opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.4), 0 0 110px rgba(255, 255, 255, 0.2), 0 0 100px rgba(255, 255, 255, 0.1); }
+  85% { opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.4), 0 0 110px rgba(255, 255, 255, 0.2), 0 0 100px rgba(255, 255, 255, 0.1); }
+  85.1% { opacity: 0;
+    text-shadow: none; }
+  86% { opacity: 0;
+    text-shadow: none; }
+  86.1% { opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1); }
+  100% { opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1); } }
+
 header { color: white; }
 
 header .navbar-brand { text-transform: uppercase; }
@@ -18,9 +156,9 @@ header .nav-item { text-transform: uppercase; font-size: 1.2rem; font-weight: 30
 
 header .navbar-expand-lg .navbar-nav .nav-link { color: white; }
 
-.hero-section { background-color: black; min-height: 100vh; background-image: url(/Images/arjun.png); background-repeat: no-repeat; background-size: cover; background-position: center bottom; color: white; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; padding: 0 10%; }
+.hero-section { background-color: black; min-height: 100vh; background-image: url(/Images/arjun.png); background-repeat: no-repeat; background-size: cover; background-position: center bottom; color: white; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; padding: 0 10%; }
 
-.hero-section h1 { font-size: 5rem; font-weight: normal; letter-spacing: .5rem; margin-bottom: .05rem; }
+.hero-section h1 { font-size: 10rem; font-weight: normal; letter-spacing: .5rem; margin-bottom: .05rem; }
 
 .hero-section p { margin-bottom: 0; font-size: 1.6rem; text-transform: uppercase; }
 
