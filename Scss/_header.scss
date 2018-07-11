@@ -7,6 +7,10 @@ header {
         color: white;
         font-size: 1.8rem;
         letter-spacing: .3rem;
+        font-weight: $font-x-light;
+        strong{
+            font-weight: $font-bold;
+        }
     }
     .nav-item {
         text-transform: uppercase;

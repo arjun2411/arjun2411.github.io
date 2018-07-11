@@ -1,13 +1,3 @@
-html { font-size: 10px; }
-
-body { font-family: 'Montserrat', sans-serif; font-size: 1.4rem; font-weight: 300; }
-
-.h2, h2 { font-size: 2.5rem; text-transform: uppercase; }
-
-.page-section { padding: 6rem 0; }
-
-.page-section .sub-heading { font-weight: 600; }
-
 .tracking-in-expand { -webkit-animation: tracking-in-expand 5s cubic-bezier(0.215, 0.61, 0.355, 1) both; animation: tracking-in-expand 5s cubic-bezier(0.215, 0.61, 0.355, 1) both; }
 
 @-webkit-keyframes tracking-in-expand { 0% { letter-spacing: -0.5em;
@@ -146,20 +136,74 @@ body { font-family: 'Montserrat', sans-serif; font-size: 1.4rem; font-weight: 30
   100% { opacity: 1;
     text-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1); } }
 
+html { font-size: 10px; }
+
+body { font-family: 'Montserrat', sans-serif; font-size: 1.4rem; font-weight: 300; line-height: 2.4rem; }
+
+img { max-width: 100%; }
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 { font-weight: 700; }
+
+.h2, h2 { font-size: 2.5rem; }
+
+.form-control { min-height: 3.2rem; font-size: 1.2rem; border: none; background-color: #F7F7F7; }
+
+.form-control:focus { background-color: #F7F7F7; -webkit-box-shadow: none; box-shadow: none; }
+
+.btn { font-size: 1.3rem; text-transform: uppercase; padding: .5rem 1rem; -webkit-box-shadow: none !important; box-shadow: none !important; }
+
+.btn-primary { background-color: #333; color: white; border-color: #333; }
+
+.btn-primary:hover { background-color: transparent; border-color: #333; color: #333; }
+
+.btn-secondary { background-color: transparent; color: #333; border-color: #333; }
+
+.btn-secondary:hover { background-color: #333; color: white; border-color: #333; }
+
+.page-section { padding: 9rem 0; }
+
+.page-section .sub-heading { font-weight: 700; }
+
 header { color: white; }
 
 header .navbar-brand { text-transform: uppercase; }
 
-header .navbar-light .navbar-brand { color: white; font-size: 1.8rem; letter-spacing: .3rem; }
+header .navbar-light .navbar-brand { color: white; font-size: 1.8rem; letter-spacing: .3rem; font-weight: 200; }
+
+header .navbar-light .navbar-brand strong { font-weight: 800; }
 
 header .nav-item { text-transform: uppercase; font-size: 1.2rem; font-weight: 300; }
 
 header .navbar-expand-lg .navbar-nav .nav-link { color: white; }
 
-.hero-section { background-color: black; min-height: 100vh; background-image: url(/images/arjun.jpg); background-repeat: no-repeat; background-size: cover; background-position: center bottom; color: white; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; padding: 0 10%; }
+.hero-section { background-color: black; min-height: 100vh; background-image: -webkit-gradient(linear, left top, right top, from(rgba(247, 247, 247, 0.4)), to(rgba(51, 51, 51, 0.9))), url(../images/arjun-01.jpg); background-image: -webkit-linear-gradient(left, rgba(247, 247, 247, 0.4), rgba(51, 51, 51, 0.9)), url(../images/arjun-01.jpg); background-image: -o-linear-gradient(left, rgba(247, 247, 247, 0.4), rgba(51, 51, 51, 0.9)), url(../images/arjun-01.jpg); background-image: linear-gradient(to right, rgba(247, 247, 247, 0.4), rgba(51, 51, 51, 0.9)), url(../images/arjun-01.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center; color: white; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; padding: 2.5rem 1.5rem; }
 
-.hero-section h1 { font-size: 10rem; font-weight: normal; letter-spacing: .5rem; margin-bottom: .05rem; }
+.hero-section h1 { font-size: 10rem; font-weight: normal; letter-spacing: .5rem; margin-bottom: .05rem; font-weight: 200; }
+
+.hero-section h1 strong { font-weight: 800; }
 
 .hero-section p { margin-bottom: 0; font-size: 1.6rem; text-transform: uppercase; }
 
-#about { background-color: #283C51; color: white; }
+.hero-section .intro { padding-bottom: 10rem; }
+
+.about { color: white; }
+
+.about__skills .progress { position: relative; height: 2.5rem; background-color: #F7F7F7; -webkit-box-shadow: inset 1px 0px 11px rgba(51, 51, 51, 0.2); box-shadow: inset 1px 0px 11px rgba(51, 51, 51, 0.2); border-radius: 5px; }
+
+.about__skills .progress h3 { position: absolute; color: white; font-size: 1.2rem; top: .5rem; left: 1.5rem; z-index: 1; }
+
+.about__skills .progress-bar { background-color: #333; position: relative; border-radius: 5px; }
+
+.about__skills .progress-bar:after { content: attr(aria-valuenow); display: block; color: white; position: absolute; right: 1rem; font-size: 1.2rem; font-weight: 700; }
+
+.skills { background-color: #F7F7F7; }
+
+.skills__details { display: grid; grid-gap: 2rem 3rem; grid-template-columns: 1fr 1fr 1fr; }
+
+.skills__item { background-color: white; border-radius: 5px; min-height: 28rem; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; padding-left: 3rem; padding-right: 3rem; -webkit-transition: all .3s ease; -o-transition: all .3s ease; transition: all .3s ease; -webkit-box-shadow: 0px 10px 30px -8px rgba(51, 51, 51, 0.09); box-shadow: 0px 10px 30px -8px rgba(51, 51, 51, 0.09); }
+
+.skills__item .icon { background-color: #F7F7F7; font-size: 3.5rem; height: 8rem; width: 8rem; border-radius: 50%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; margin-bottom: 1.5rem; -webkit-transition: all .5s ease; -o-transition: all .5s ease; transition: all .5s ease; }
+
+.skills__item:hover .icon { background-color: #333; color: white; }
+
+.footer { background-color: #333; color: white; font-weight: normal; font-size: 1.2rem; }
